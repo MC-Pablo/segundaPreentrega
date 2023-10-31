@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e4c4ad;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1.6;
+}
+
+header {
+
+    text-align: center;
+    padding: 10px 20px;
+
+
+}
+
+.Logo {
+    width: 170px;
+    height: 170px;
+    border-radius: 400%;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 15px;
+
+
+}
+
+.navegador2 {
+    list-style: none;
+    display: inline-block;
+    margin: 5px 15px;
+    text-decoration: underline;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    text-align: center;
+    padding: 10px 20px;
+
+}
+
+
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: black;
+}
+
+main {
+    margin: auto;
+
+}
+
+.imgMain {
+    margin: 1px;
+    padding: 1px;
+    border-radius: 5%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    font-size: 25px;
+
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+
+
+p {
+    margin: 10px;
+    padding: 10px;
+    display: auto;
+}
+
+
+
+footer {
+    margin: 20px;
+    padding: 20px;
+    border-top: 1px solid black;
+    text-align: center;
+}
+
+.imgFooter {
+    margin: 3px;
+    padding: 3px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+
+iframe {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* principal */
+
+.divDestacados {
+    margin: 10px;
+    display: inline;
+}
+
+.imgProducto {
+    margin: 5px;
+    padding: 5px;
+    display: inline;
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+/* Productos */
+
+.imgProducto1 {
+
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/* Mundocafe */
+
+.imgCafe {
+
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+/*Nosotros*/
+
+.imgNosotros1 {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 30px;
+
+}
+
+.imgNosotros2 {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 30px;
+
+
+}
+
+/* Formulario Contacto*/
+
+form {
+    margin-top: 20px;
+
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+
+input {
+    display: inline-block;
+    width: 20%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+
+
+}
+
+textarea {
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.botonF1 {
+    background-color: gray;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
